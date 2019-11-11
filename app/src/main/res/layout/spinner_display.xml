@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpinnerDisplay"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Profile"
+        android:textSize="30dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/colorLight"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Name :"
+        android:textSize="25dp"
+        android:textColor=" @color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/yourName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Name Here :"
+        android:textColor=" @color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Phone Number :"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Phone Number :"
+        android:id="@+id/phoneNumber"
+        android:textSize="20dp"
+        android:textColor=" @color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your E-Mail :"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:text=" @color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textColor=" @color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Address :"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:text="Your Address :"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor=" @color/colorPrimaryDark"
+        android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>

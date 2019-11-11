@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpinnerTask</string>
+    <string-array name="address">
+        <item>Kathmandu</item>
+        <item>Bhaktapur</item>
+        <item>Lalitpur</item>
+        <item>Pokhara</item>
+        <item>Dharan</item>
+    </string-array>
+</resources>
